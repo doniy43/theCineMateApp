@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "931870644510",
+    "project_id": "cinemateapp-1e717",
+    "storage_bucket": "cinemateapp-1e717.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931870644510:android:877e5b1085b4732ee9110f",
+        "android_client_info": {
+          "package_name": "com.example.cinemateapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy3fPHaGEfPA3kVIKBnf9xJa6TBmo_vPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

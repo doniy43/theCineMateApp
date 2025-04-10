@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Movie Title"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textViewYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Year: 2024"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textViewStudio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Studio: Warner Bros"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textViewRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rating: 8.5"
+            android:layout_marginBottom="8dp" />
+
+        <ImageView
+            android:id="@+id/imageViewPoster"
+            android:layout_width="250dp"
+            android:layout_height="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:scaleType="fitCenter" />
+
+
+        <EditText
+            android:id="@+id/editTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Edit Title" />
+
+        <EditText
+            android:id="@+id/editYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Edit Year"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/editStudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Edit Studio"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/editRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Edit Rating"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/editPosterUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Edit Poster URL"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_marginTop="24dp" />
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#D32F2F"
+            android:textColor="#FFFFFF"
+            android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>
